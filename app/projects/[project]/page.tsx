@@ -12,7 +12,8 @@ export default async function Project({params}: Props){
     return (
     <div>
         <header>
-            <h1>{project.name}</h1>
+            <h1>Hi</h1>
+            {/* <h1>{project.name}</h1>
             <div>
                 <PortableText value={project.content}/>
             </div>
@@ -20,7 +21,7 @@ export default async function Project({params}: Props){
             width={1920}
             height={1080}
             />
-            <a href={project.url} title="View Project" target="_blank" rel="noopener noreferrer">view project</a>
+            <a href={project.url} title="View Project" target="_blank" rel="noopener noreferrer">view project</a> */}
         </header>
     </div>
     )
