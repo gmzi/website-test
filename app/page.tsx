@@ -13,8 +13,8 @@ export default async function Home() {
           <h2>{project.name}</h2>
           <img 
           src={project.image}
-          width={250}
-          height={100}
+          width={350}
+          height="auto"
           />
         </Link>
       ))}
